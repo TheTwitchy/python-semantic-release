@@ -84,7 +84,7 @@ def gitlab(branch: str):
 
     :param branch: The branch the environment should be running against.
     """
-    assert os.environ.get("CI_COMMIT_REF_NAME") == branch
+    # assert os.environ.get("CI_COMMIT_REF_NAME") == branch
     # TODO - don't think there's a merge request indicator variable
 
 
